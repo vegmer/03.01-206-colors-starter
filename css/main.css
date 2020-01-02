@@ -5,8 +5,8 @@ html, body {
   margin: 0px;
 }
 
-.clear {
-  clear: both;
+.clear{
+  clear:both;
 }
 
 #wrapper {
@@ -63,6 +63,12 @@ footer {
     background-color: #A9A9A9;
   }
 
+  .col-3 {
+    width: 50%;
+    height: 320px;
+    float: left;
+  }
+
   #column-1 {
     background-color: 	#008B8B;
   }
@@ -86,6 +92,12 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #FFB6C1;
+  }
+
+  .col-3 {
+    width: 33.33%;
+    height: 320px;
+    float: left;
   }
 
   #column-1 {
